@@ -4,7 +4,6 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import HumanMessagePromptTemplate, SystemMessagePromptTemplate, ChatPromptTemplate
 from langchain.chains import LLMChain
 
-
 load_dotenv()  # take environment variables from .env.
 
 chat_model = ChatOpenAI(
